@@ -1,0 +1,26 @@
+body{
+  margin:20px;
+  padding:0;
+  background-color:#333;
+}
+#placeName{
+  text-align: center;
+  color:#fff;
+}
+.container{
+  max-width: 570px;
+  border: 5px solid #fff;
+  background:#fff;
+  margin:auto;
+}
+
+.main-img img, 
+.imgs img{
+  width:100%;
+}
+.imgs{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:5px;
+  align-items:stretch;
+}
